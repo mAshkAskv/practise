@@ -1,0 +1,37 @@
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 42px;
+    width: 25px;cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #62462b;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: border-bottom 0.4s;
+}
+
+nav a:hover{
+    border-bottom: 1px solid #62462B;
+}

@@ -1,0 +1,138 @@
+/*footer*/
+.footer {
+    background-color: #f7f7f7;
+    padding: 4rem 2rem 1rem;
+}
+
+.footer-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.footer-logo-section{
+    margin-top: -0.2rem;
+}
+
+.footer-logo {
+    margin-bottom: 0rem;
+}
+
+.footer-logo h2 {
+    font-size: 1.3rem;
+    color: #333333;
+    margin-bottom: 0.25rem;
+}
+
+.footer-logo p {
+    margin-top: -0.5rem;
+    color: #666666;
+    font-size: 1rem;
+}
+
+.subscribe-form {
+    margin-top: 1rem;
+}
+
+.subscribe-form input {
+    width: 70%;
+    padding: 0.75rem;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 0.8rem;
+}
+
+.subscribe-btn {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.subscribe-btn:hover {
+    background-color: #532b14;
+}
+/* Footer columns */
+.footer-column h3 {
+    color: #333333;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.3rem;
+}
+
+.footer-column ul li a {
+    display: inline-block;
+    color: #666666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color transform 0.4s ease; /* Separate properties with comma */
+}
+
+.footer-column ul li a:hover {
+    color: #8B4513;
+    transform: scale(1.05);
+}
+/* Contact info */
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: #666666;
+    font-size: 0.9rem;
+}
+/* Social media icons */
+.social-icons {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.social-icons img {
+    width:35px;
+    height: 35px;
+    transition: transform 0.4s ease;
+}
+
+.social-icons img:hover{
+    transform: scale(1.2);
+}
+/* Footer bottom */
+.footer-bottom {
+    max-width: 1600px;
+    margin: 2rem auto 0;
+    padding-top: 1rem;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666666;
+    font-size: 0.85rem;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-bottom-links a {
+    color: #666666;
+    text-decoration: none;
+    transition: color transform 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+    color: #8B4513;
+    transform: scale(1.07);
+}

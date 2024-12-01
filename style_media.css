@@ -1,0 +1,299 @@
+/* Responsive Design */
+@media (max-width: 780px) {
+    header{
+        padding: 0rem 1rem;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .logo img {
+        height: 25px;
+        width: 15px;
+        margin-bottom: -0.3rem;
+        margin-top: 0.1rem;
+    }
+
+    .hero {
+    height:30vh;
+    padding: 0 10px;
+    line-height: 1;
+    }
+
+    .hero-content {
+        padding-left: 0.7rem;
+        margin-top: 2rem;
+        max-width: 175px;
+    }
+
+    .subtitle {
+        font-size: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 1.65rem;
+        line-height:  1;
+        margin-bottom: 1rem;
+    }
+
+    .hero-buttons{
+        padding-top: 0rem;
+    }
+
+    .btn-primary {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.5rem;
+    }
+    
+    .hero-buttons .btn-secondary {
+        display: none;
+    }
+    
+    .btn-more:hover{
+        background-color: #532b14;
+    }
+
+    .top-products h2 {
+        font-size: 1.5rem;
+        margin-top: -3.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .top-products{
+        width: 386px;
+        
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6rem;
+     
+    }
+
+    .header-price-container{
+        width: 172px;
+        margin-top: -1rem;
+    }
+    
+    .product-card img {
+        width: 172px;
+        height: 172px;
+        border-radius: 3px;
+        margin: 0;
+        
+    }
+
+    .product-card{
+        width: 172px;
+    }
+
+    .product-info {
+        gap: 0rem;
+    }
+
+    .product-card .btn-more {
+        padding: 0.3rem 1rem;
+        font-size: 0.7rem;
+    }
+    
+    .price {
+        font-size: 0.9rem;
+        margin-top: 25px;
+        padding-right: 0.5rem;
+    }
+    
+    .product-info h3::after {
+      top: 24px;
+      height: 0.1rem;
+      width: 10rem;
+      border-bottom: 0.7px solid #dddddd;
+      padding-left: 0.5rem;
+    }
+    
+    .product-info h3{
+        font-size: 0.9rem;
+    }
+    /* Знижечка */
+    .discount {
+        margin-top: -3rem;
+        padding: 1.5rem 2rem;
+    }
+    
+    .discount h2 {
+        font-family: 'Lobster', cursive;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        line-height:  1.2;
+    
+    }
+    
+    .discount .btn-primary{
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    
+    .discount-text{
+        font-size: 0.8rem;
+    }
+
+    /* Explore*/
+    .explore {
+        padding: 2rem 2rem;
+        max-width: 386px;
+    }
+
+    .explore h2 {
+     font-size: 1.5rem;
+    }
+
+    .category-links {
+        font-size: 0.8rem;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        line-height: 0.7;
+        flex-wrap: wrap;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6rem;
+        margin-top: -7rem;
+    }
+
+    .gallery-grid img {
+        width: 156px;
+        height: 156px;
+        border-radius: 3px;
+    }
+    /* Про нас */
+    .about {
+        padding: 2rem 2rem;
+    }
+
+    .about h2 {
+        font-size: 1.3rem;
+    }
+    .about p {
+        font-size: 0.8rem;
+    }
+
+    .about .btn-primary{
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    /* Відгукииии */
+    .feedback {
+        padding: 2rem 2rem;
+        max-width: 386px;
+    }
+
+    .feedback h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .feedback-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+    }
+
+    .feedback-grid img {
+        width: 100px;
+        height: 100px;
+        border-radius: 3px;
+    }
+    /*footer*/
+    .footer {
+        padding: 2rem 2rem 1rem;
+    }
+
+    .footer-content {
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-logo-section{
+        margin-top: -0.2rem;
+    }
+
+    .footer-logo h2 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .footer-logo p {
+        font-size: 0.7rem;
+    }
+
+    .subscribe-form {
+        margin-top: 1rem;
+    }
+
+    .subscribe-form input {
+        width: 90%;
+        border-radius: 3px;
+        margin-top: -0.2rem;
+    }
+
+    .subscribe-btn {
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    /* Footer columns */
+    .footer-column h3 {
+        font-size: 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 0rem;
+        line-height: 1.2rem;
+    }
+
+    .footer-column ul li a {
+        font-size: 0.7rem;
+        transition: color 0.3s;
+    }
+    /* Contact info */
+    .contact-info {
+        margin-bottom: 0.4rem;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    /* Social media icons */
+    .social-icons {
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .social-icons img {
+        width:30px;
+        height: 30px;
+        transition: background-color 0.7s;
+    }
+
+    .social-icons img:hover{
+        width: 40px;
+        height: 40px;
+    }
+    /* Footer bottom */
+    .footer-bottom {
+        max-width: 400px;
+        font-size: 0.65rem;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .footer-bottom-links a {
+        display: none;
+    }
+
+    
+}
